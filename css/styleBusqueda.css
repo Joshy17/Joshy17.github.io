@@ -1,0 +1,69 @@
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/262/287/non_2x/white-abstract-background-backdrop-for-presentation-design-for-website-free-photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+}
+
+.search-container{
+    max-width: 400px;
+    margin: 0vh auto;
+    padding: 20px;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    outline: none;
+}
+
+.card-doctors-container{
+    margin: 10vh auto;
+    text-align: center;
+}
+
+.card-doctors{
+
+    display: inline-block;
+    text-align: center;
+    margin: 0 30px;
+}
+
+.card-doctors img{
+    height: 180px;
+}
+
+.card-doctors h3,
+.card-doctors .doctorName,
+.card-doctors .doctorSpeciality,
+.card-doctors .doctorLocation,
+.card-doctors .doctorId{
+    margin-top: 10px;
+}
+
+.card-doctors button{
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color:  white;
+    background-color: green;
+    text-align: center;
+    cursor: pointer;
+    width: 80%;
+    font-size: 15px;
+}
+
+.no-results{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    display: none;
+}
